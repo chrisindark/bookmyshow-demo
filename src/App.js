@@ -47,7 +47,6 @@ function App() {
 
     arr.forEach(value => {
       const rangeArr = value.split('-');
-      console.log(rangeArr);
       if (rangeArr.length > 1 && Number(rangeArr[0]) < Number(rangeArr[1])) {
         for (let i = Number(rangeArr[0]); i <= Number(rangeArr[1]); ++i) {
           console.log(i);
